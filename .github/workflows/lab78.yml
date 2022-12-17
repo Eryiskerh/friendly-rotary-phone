@@ -28,4 +28,4 @@ jobs:
       continue-on-error: true
       run: dotnet add ./lab78/tests/tests.csproj package coverlet.msbuild  
     - name: Test 
-      run: dotnet test ./lab78/lab78.sln /p:CollectCoverage=true
+      run: dotnet test ./lab78/tests/tests.csproj /p:CollectCoverage=true
