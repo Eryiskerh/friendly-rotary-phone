@@ -94,4 +94,34 @@ public class TestApp
     {
 		Assert.AreEqual(App.F3(double.MaxValue), Math.Exp(2d*double.MaxValue));
     }
+	[TestMethod]
+    public void TestF2_1()
+    {
+		Assert.AreEqual(App.F2(0d), Math.Cos(0d));
+    }
+	[TestMethod]
+    public void TestF2_2()
+    {
+		Assert.AreEqual(App.F2(1d), Math.Cos(1d));
+    }
+	[TestMethod]
+    public void TestF2_3()
+    {
+		Assert.AreEqual(App.F2(-1d), Math.Cos(-1d));
+    }
+	[TestMethod]
+    public void TestF2_4()
+    {
+		Assert.AreEqual(App.F2(-0.5d), Math.Cos(-0.5d));
+    }
+	[TestMethod]
+    public void TestF2_5()
+    {
+		Assert.AreEqual(App.F2(0.5d), Math.Cos(0.5d));
+    }
+	[TestMethod]
+    public void TestF2_6()
+    {
+		Assert.AreEqual(App.F2(double.MaxValue), Math.Cos(double.MaxValue));
+    }
 }
