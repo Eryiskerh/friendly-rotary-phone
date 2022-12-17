@@ -12,7 +12,7 @@ on:
 jobs:
   build:
 
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
     steps:
     - uses: actions/checkout@v3
@@ -29,5 +29,5 @@ jobs:
       run: dotnet add ./lab78/tests/tests.csproj package coverlet.msbuild  
     - name: Test 
       run: dotnet test ./lab78/lab78.sln /p:CollectCoverage=true
-    - name: Output coverage
-      run: cat ./lab78/tests/coverage.json
+    #- name: Output coverage
+    #  run: cat ./lab78/tests/coverage.json
