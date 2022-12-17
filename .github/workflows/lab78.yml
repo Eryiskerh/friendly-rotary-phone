@@ -24,5 +24,9 @@ jobs:
       run: dotnet restore ./lab78/proj/proj.csproj 
     - name: Build
       run: dotnet build --no-restore ./lab78/proj/proj.csproj
+    - name: Install coverlet.msbuild
+      run: dotnet add ./lab78/tests/tests.csproj package coverlet.msbuild 
+    - name: Remove coverlet collector
+      run: dotnet remove ./lab78/tests/tests.csproj package coverlet.collector
     - name: Test
       run: dotnet test ./lab78/lab78.sln /p:CollectCoverage=true
