@@ -127,7 +127,7 @@ public class TestApp
 	[TestMethod]
     public void TestF1_1()
     {
-		Assert.AreEqual(App.F1(0d), 0d*0d*0d));
+		Assert.AreEqual(App.F1(0d), 0d*0d*0d);
     }
 	[TestMethod]
     public void TestF1_2()
