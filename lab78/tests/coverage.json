@@ -1,0 +1,63 @@
+{
+  "proj.dll": {
+    "D:\\vika_\\Magistry\\3sem\\mitrich\\friendly-rotary-phone\\lab78\\proj\\Program.cs": {
+      "proj.App": {
+        "System.Int32 proj.App::Main(System.String[])": {
+          "Lines": {
+            "5": 0,
+            "6": 0,
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0
+          },
+          "Branches": []
+        },
+        "System.Double proj.App::F(System.Double)": {
+          "Lines": {
+            "15": 0,
+            "16": 0,
+            "17": 0
+          },
+          "Branches": []
+        },
+        "System.Double proj.App::F1(System.Double)": {
+          "Lines": {
+            "18": 0,
+            "19": 0,
+            "20": 0
+          },
+          "Branches": []
+        },
+        "System.Double proj.App::F2(System.Double)": {
+          "Lines": {
+            "21": 0,
+            "22": 0,
+            "23": 0
+          },
+          "Branches": []
+        },
+        "System.Double proj.App::F3(System.Double)": {
+          "Lines": {
+            "24": 0,
+            "25": 0,
+            "26": 0
+          },
+          "Branches": []
+        },
+        "System.Double proj.App::F4(System.Double)": {
+          "Lines": {
+            "27": 0,
+            "28": 0,
+            "29": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}

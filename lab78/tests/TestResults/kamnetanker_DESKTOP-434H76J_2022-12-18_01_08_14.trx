@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="b1b3bff6-cf4f-4cce-959f-21aaed4d7fa5" name="kamnetanker@DESKTOP-434H76J 2022-12-18 01:08:14" runUser="DESKTOP-434H76J\kamnetanker" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2022-12-18T01:08:14.7921253+03:00" queuing="2022-12-18T01:08:14.7921255+03:00" start="2022-12-18T01:08:13.8274060+03:00" finish="2022-12-18T01:08:14.8018465+03:00" />
+  <TestSettings name="default" id="420d3a77-d872-409e-a47a-355be8ef7f66">
+    <Deployment runDeploymentRoot="kamnetanker_DESKTOP-434H76J_2022-12-18_01_08_14" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="3cad37a9-838e-4aa9-8a06-b64c0a439fb8" testId="280bcfc6-c624-4495-8497-c5081b1a43eb" testName="TestMethod1" computerName="DESKTOP-434H76J" duration="00:00:00.0048543" startTime="2022-12-18T01:08:14.5654484+03:00" endTime="2022-12-18T01:08:14.5911358+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3cad37a9-838e-4aa9-8a06-b64c0a439fb8" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="d:\vika_\magistry\3sem\mitrich\friendly-rotary-phone\lab78\tests\bin\debug\net6.0\tests.dll" id="280bcfc6-c624-4495-8497-c5081b1a43eb">
+      <Execution id="3cad37a9-838e-4aa9-8a06-b64c0a439fb8" />
+      <TestMethod codeBase="D:\vika_\Magistry\3sem\mitrich\friendly-rotary-phone\lab78\tests\bin\Debug\net6.0\tests.dll" adapterTypeName="executor://mstestadapter/v2" className="tests.UnitTest1" name="TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="280bcfc6-c624-4495-8497-c5081b1a43eb" executionId="3cad37a9-838e-4aa9-8a06-b64c0a439fb8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Список результатов" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Все загруженные результаты" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>
