@@ -23,11 +23,6 @@ jobs:
     - name: Restore dependencies main proj
       run: dotnet restore ./lab78/proj/proj.csproj 
     - name: Build
-      run: dotnet build --no-restore ./lab78/proj/proj.csproj
-    - name: Install coverlet.msbuild
-      continue-on-error: true
-      run: dotnet add ./lab78/tests/tests.csproj package coverlet.msbuild  
+      run: dotnet build --no-restore ./lab78/proj/proj.csproj 
     - name: Test 
-      run: dotnet test ./lab78/lab78.sln /p:CollectCoverage=true
-    #- name: Output coverage
-    #  run: cat ./lab78/tests/coverage.json
+      run: dotnet test ./lab78/lab78.sln /p:CollectCoverage=true 
