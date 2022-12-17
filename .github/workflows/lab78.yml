@@ -21,9 +21,7 @@ jobs:
       with:
         dotnet-version: 6.0.x
     - name: Restore dependencies main proj
-      run: dotnet restore ./lab78/proj/proj.csproj
-    - name: Restore dependencies tests proj
-      run: dotnet restore ./lab78/tests/tests.csproj
+      run: dotnet restore ./lab78/proj/proj.csproj 
     - name: Build
       run: dotnet build --no-restore ./lab78/proj/proj.csproj
     - name: Test
