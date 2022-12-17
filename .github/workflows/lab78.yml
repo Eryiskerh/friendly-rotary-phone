@@ -25,4 +25,4 @@ jobs:
     - name: Build
       run: dotnet build --no-restore ./lab78/proj/proj.csproj
     - name: Test
-      run: dotnet test --verbosity normal ./lab78/lab78.sln --logger:trx "/p:CollectCoverage=true"
+      run: dotnet test ./lab78/lab78.sln /p:CollectCoverage=true
