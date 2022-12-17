@@ -1,0 +1,30 @@
+# This workflow will build a .NET project
+# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-net
+
+name: .NET
+
+on:
+  push:
+    branches: [ "main" ,"dev" ]
+  pull_request:
+    branches: [ "main", "dev" ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: 6.0.x
+    - name: Restore dependencies main proj
+      run: dotnet restore ./lab78/proj/proj.csproj
+    - name: Restore dependencies tests proj
+      run: dotnet restore ./lab78/tests/tests.csproj
+    - name: Build
+      run: dotnet build --no-restore ./lab78/proj/proj.csproj
+    - name: Test
+      run: dotnet test --verbosity normal ./lab78/lab78.sln --logger:trx "/p:CollectCoverage=true"
