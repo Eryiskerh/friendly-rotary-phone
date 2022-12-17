@@ -25,6 +25,7 @@ jobs:
     - name: Build
       run: dotnet build --no-restore ./lab78/proj/proj.csproj
     - name: Install coverlet.msbuild
+      continue-on-error: true
       run: dotnet add ./lab78/tests/tests.csproj package coverlet.msbuild  
-    - name: Test
+    - name: Test 
       run: dotnet test ./lab78/lab78.sln /p:CollectCoverage=true
