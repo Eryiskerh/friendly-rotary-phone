@@ -154,4 +154,9 @@ public class TestApp
     {
 		Assert.AreEqual(App.F1(double.MaxValue), double.MaxValue*double.MaxValue*double.MaxValue);
     }
+	[TestMethod]
+    public void TestMain()
+    {
+		Assert.AreEqual(App.Main(new string[] {"App"}), 0);
+    }
 }
