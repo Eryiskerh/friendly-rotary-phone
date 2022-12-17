@@ -34,5 +34,35 @@ public class TestApp
     {
 		Assert.AreEqual(App.F(double.MaxValue), -1d*double.MaxValue*double.MaxValue);
     }
+	[TestMethod]
+    public void TestF4_1()
+    {
+		Assert.AreEqual(App.F(0d), 0d);
+    }
+	[TestMethod]
+    public void TestF4_2()
+    {
+		Assert.AreEqual(App.F(1d), 2d);
+    }
+	[TestMethod]
+    public void TestF4_3()
+    {
+		Assert.AreEqual(App.F(-1d), -2d);
+    }
+	[TestMethod]
+    public void TestF4_4()
+    {
+		Assert.AreEqual(App.F(-0.5d), -1d);
+    }
+	[TestMethod]
+    public void TestF4_5()
+    {
+		Assert.AreEqual(App.F(0.5d), 1d);
+    }
+	[TestMethod]
+    public void TestF4_6()
+    {
+		Assert.AreEqual(App.F(double.MaxValue), 2d*double.MaxValue);
+    }
 	
 }
