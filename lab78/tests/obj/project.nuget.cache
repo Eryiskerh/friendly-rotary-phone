@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "VIVttrQYDEf61RuL5AYM1rLMwVSkneMUqX6NmlTufG5/7+K6itzxjschYotHsj6YEthVNm3aKcvl6WhNgvUo7g==",
+  "dgSpecHash": "iaOoVHcCHnrfjRApai8E8vi74QhK1K69VPQojQ2zgpVWD4hc/ULdWkm+QZBWXp1JzRvRuFxstqKCZdp7dj/6ew==",
   "success": true,
   "projectFilePath": "D:\\vika_\\Magistry\\3sem\\mitrich\\friendly-rotary-phone\\lab78\\tests\\tests.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\kamnetanker\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
     "C:\\Users\\kamnetanker\\.nuget\\packages\\coverlet.msbuild\\3.2.0\\coverlet.msbuild.3.2.0.nupkg.sha512",
     "C:\\Users\\kamnetanker\\.nuget\\packages\\microsoft.codecoverage\\17.1.0\\microsoft.codecoverage.17.1.0.nupkg.sha512",
     "C:\\Users\\kamnetanker\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",

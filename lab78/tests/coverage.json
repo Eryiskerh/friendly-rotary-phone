@@ -4,56 +4,56 @@
       "proj.App": {
         "System.Int32 proj.App::Main(System.String[])": {
           "Lines": {
-            "5": 0,
-            "6": 0,
-            "7": 0,
-            "8": 0,
-            "9": 0,
-            "10": 0,
-            "11": 0,
-            "12": 0,
-            "13": 0,
-            "14": 0
+            "5": 1,
+            "6": 1,
+            "7": 1,
+            "8": 1,
+            "9": 1,
+            "10": 1,
+            "11": 1,
+            "12": 1,
+            "13": 1,
+            "14": 1
           },
           "Branches": []
         },
         "System.Double proj.App::F(System.Double)": {
           "Lines": {
-            "15": 6,
-            "16": 6,
-            "17": 6
+            "15": 12,
+            "16": 12,
+            "17": 12
           },
           "Branches": []
         },
         "System.Double proj.App::F1(System.Double)": {
           "Lines": {
-            "18": 6,
-            "19": 6,
-            "20": 6
+            "18": 18,
+            "19": 18,
+            "20": 18
           },
           "Branches": []
         },
         "System.Double proj.App::F2(System.Double)": {
           "Lines": {
-            "21": 6,
-            "22": 6,
-            "23": 6
+            "21": 18,
+            "22": 18,
+            "23": 18
           },
           "Branches": []
         },
         "System.Double proj.App::F3(System.Double)": {
           "Lines": {
-            "24": 6,
-            "25": 6,
-            "26": 6
+            "24": 18,
+            "25": 18,
+            "26": 18
           },
           "Branches": []
         },
         "System.Double proj.App::F4(System.Double)": {
           "Lines": {
-            "27": 6,
-            "28": 6,
-            "29": 6
+            "27": 24,
+            "28": 24,
+            "29": 24
           },
           "Branches": []
         }
