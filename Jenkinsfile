@@ -4,17 +4,17 @@ pipeline {
     stages {
         stage('Restore') {
             steps {
-				dotnetRestore project: 'formula_proj.csproj', workDirectory: './formula/formula_proj/'
+				dotnetRestore project: 'proj.csproj', workDirectory: './lab78/proj/'
 			}
 		}
 		stage('Build') {
             steps {
-                dotnetBuild project: 'formula_proj.csproj', workDirectory: './formula/formula_proj/' 
+                dotnetBuild project: 'proj.csproj', workDirectory: './lab78/proj/' 
             }
         }
 		stage('Test') {
             steps {
-                sh '''mv $( dotnet test --collect:"XPlat Code Coverage" -o TestResults ./formula/formula.sln | grep cobertura.xml ) ./formula/formula_tests/lastlog.cobertura.xml'''
+                sh '''mv $( dotnet test --collect:"XPlat Code Coverage" -o TestResults ./lab78/lab78.sln | grep cobertura.xml ) ./lab78/tests/lastlog.cobertura.xml'''
             }
         }
 		stage('Publish') {
